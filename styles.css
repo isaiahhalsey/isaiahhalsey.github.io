@@ -24,12 +24,12 @@ header {
     z-index: 1000;
 }
 
-header h1 {
-    margin: 0;
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
-}
+    header h1 {
+        margin: 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+    }
 
 nav ul {
     list-style-type: none;
@@ -38,20 +38,20 @@ nav ul {
     padding: 10px 0;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
+    nav ul li {
+        margin: 0 15px;
+    }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-}
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+        }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
 
 main {
     padding: 20px;
@@ -79,60 +79,60 @@ section {
     border-radius: 8px;
 }
 
-section#new-post h2 {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 20px;
-}
+    section#new-post h2 {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
 
-section#new-post form {
-    display: flex;
-    flex-direction: column;
-}
+    section#new-post form {
+        display: flex;
+        flex-direction: column;
+    }
 
-section#new-post label {
-    margin-bottom: 5px;
-    font-weight: 700;
-    font-size: 16px;
-}
+    section#new-post label {
+        margin-bottom: 5px;
+        font-weight: 700;
+        font-size: 16px;
+    }
 
-section#new-post input, section#new-post textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
+    section#new-post input, section#new-post textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
 
-section#new-post button {
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-}
+    section#new-post button {
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    }
 
-section#new-post button:hover {
-    background-color: #555;
-}
+        section#new-post button:hover {
+            background-color: #555;
+        }
 
 .blog-post {
     margin-bottom: 20px;
 }
 
-.blog-post h2 {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 20px;
-}
+    .blog-post h2 {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 20px;
+    }
 
-.blog-post p {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
+    .blog-post p {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
 
 section#about h2, section#contact h2 {
     margin-bottom: 10px;
@@ -150,6 +150,6 @@ section#contact a {
     font-weight: 700;
 }
 
-section#contact a:hover {
-    text-decoration: underline;
-}
+    section#contact a:hover {
+        text-decoration: underline;
+    }
